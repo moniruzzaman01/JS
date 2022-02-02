@@ -1,0 +1,17 @@
+var problem = false
+var i = 1
+while (i <= 10) {
+    console.log("১) রাত ৮টা বাজে মডিউল আনলক করো।")
+    console.log("২) ফটাফট ভিডিও দেখে প্রাকটিস করো।")
+    console.log("৩) ভিডিও দেখে নোটস নাও।")
+    console.log("৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো।")
+    if (problem == true) {
+        console.log("৫) সাপোর্ট সেশনে জয়েন করো।")
+    } else {
+        console.log("৫) সাপোর্ট সেশনে জয়েন করার দরকার নাই।")
+    }
+    console.log("\n")
+
+
+    i++ // increment
+}
